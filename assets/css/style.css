@@ -1,0 +1,30 @@
+/*----- Variables -----*/
+
+:root {
+    /* Colors */
+    --light-red: #f1aeb5;
+    --light-green: #a6e9d5;
+    --light-yellow: #ffe69c;
+}
+
+/*----- END Variables -----*/
+
+label.hour {
+    width: 70px;
+}
+
+textarea.hour-plans {
+    min-height: 86px;
+}
+
+.past-timeblock .hour-plans {
+    background-color: var(--light-red);
+}
+
+.present-timeblock .hour-plans {
+    background-color: var(--light-yellow);
+}
+
+.future-timeblock .hour-plans {
+    background-color: var(--light-green);
+}
